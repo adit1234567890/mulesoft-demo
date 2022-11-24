@@ -79,7 +79,7 @@ jobs:
          -DskipTests
          
   deploy_dev:
-    needs: build
+    needs: deploy_sand
     runs-on: ubuntu-latest
     environment: test
 
