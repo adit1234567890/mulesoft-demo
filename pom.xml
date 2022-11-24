@@ -37,7 +37,7 @@
       <muleVersion>4.4.0</muleVersion>
       <username>${username}</username>
       <password>${password}</password>
-      <applicationName>test-pro-api</applicationName>
+      <applicationName>muledemo-hello</applicationName>
       <environment>Sandbox</environment>
       <workers>1</workers>
       <workerType>Micro</workerType>
