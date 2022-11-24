@@ -33,17 +33,16 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${app.runtime}</muleVersion>
-						<username>${username}</username>
-						<password>${password}</password>
-						<applicationName>${cloudhub.application.name}</applicationName>
-						<environment>${environment}</environment>
-						
-						<workers>${workers}</workers>
-						<workerType>${workerType}</workerType>
-						
-					</cloudHubDeployment>
+      <uri>https://anypoint.mulesoft.com</uri>
+      <muleVersion>4.4.0</muleVersion>
+      <username>${username}</username>
+      <password>${password}</password>
+      <applicationName>test-pro-api</applicationName>
+      <environment>Sandbox</environment>
+      <workers>1</workers>
+      <workerType>Micro</workerType>
+      <objectStoreV2>true</objectStoreV2>
+    </cloudHubDeployment>
 
 
 
